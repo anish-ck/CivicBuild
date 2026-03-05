@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Environment
+.env
+.env.*
+
+# Database & Storage
+backend/business.db
+backend/chroma_db/
+backend/reports/
+
+# Node / Expo
+node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+.expo-shared/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
